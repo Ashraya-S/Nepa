@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nepa_black"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back"
+            android:background="@android:color/transparent"/>
+
+        <ImageView
+            android:id="@+id/ivDetailImage"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/nepa_white"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/tvDetailPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AUD 0.00"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/nepa_white"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvDetailDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product description goes here."
+            android:textColor="@color/nepa_grey_text"
+            android:layout_marginTop="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Size:"
+                android:textColor="@color/nepa_white"
+                android:textSize="16sp"/>
+
+            <RadioGroup
+                android:id="@+id/rgSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="8dp">
+
+                <RadioButton android:id="@+id/rbXS" android:text="XS" android:textColor="@color/nepa_white"/>
+                <RadioButton android:id="@+id/rbS" android:text="S" android:textColor="@color/nepa_white"/>
+                <RadioButton android:id="@+id/rbM" android:text="M" android:textColor="@color/nepa_white"/>
+                <RadioButton android:id="@+id/rbL" android:text="L" android:textColor="@color/nepa_white"/>
+                <RadioButton android:id="@+id/rbXL" android:text="XL" android:textColor="@color/nepa_white"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btnMinus"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/tvQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textColor="@color/nepa_white"
+                android:layout_margin="12dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnPlus"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="+" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnAddToCart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add to Cart"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnAddToWishlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add to Wishlist"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

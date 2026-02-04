@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nepa_black">#000000</color>
+    <color name="nepa_white">#FFFFFF</color>
+    <color name="nepa_grey_text">#B3B3B3</color>
+    <color name="nepa_grey_dark">#1A1A1A</color>
+</resources>

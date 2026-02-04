@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "206114206452",
+    "project_id": "nepa-5d3a1",
+    "storage_bucket": "nepa-5d3a1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206114206452:android:15fce6a7b4213cfa64e4a1",
+        "android_client_info": {
+          "package_name": "com.example.nepa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeftkVosVKlrEUVYGvOV-m9Qzglujr4kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
